@@ -1,5 +1,5 @@
 """
-ASGI config for waspbt project.
+ASGI config for waspbt_backend project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "waspbt.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "waspbt_backend.settings")
 
 application = get_asgi_application()
